@@ -69,7 +69,7 @@ function Login() {
           onChange={inputHandler}
         />
         <h4>
-          Already Registered <NavLink to="/register">(Register)</NavLink>
+          Not Yet Registered <NavLink to="/register">(Register)</NavLink>
         </h4>
         <button type="submit" onClick={submitHandler}>
           <Publish />
